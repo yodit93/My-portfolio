@@ -1,4 +1,4 @@
-.nav {
+.header {
   display: flex;
   height: 48px;
   align-items: center;
@@ -17,6 +17,7 @@
   font-weight: 700;
   font-size: 18px;
   padding: 10px 12px;
+  text-decoration: none;
 }
 
 .right-section {
@@ -38,7 +39,7 @@
   flex-direction: column;
   margin-left: 24px;
   margin-right: 24px;
-  background-image: url('/Module-1/My-portfolio/images/header-shapes\ mobile@2x.svg');
+  background-image: url('/header-shapes\ mobile@2x.svg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -68,8 +69,11 @@
   margin-bottom: 12px;
 }
 
-.social-media-icons {
+.social-media-links {
   display: flex;
   width: 170.17px;
   justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
