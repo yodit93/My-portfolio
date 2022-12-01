@@ -12,8 +12,7 @@
 }
 
 .logo {
-  color: #6070FF;
-  font-family: 'Poppins';
+  color: #6070ff;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -45,8 +44,7 @@
 }
 
 .introduction {
-  color: #172B4D;
-  font-family: 'Poppins';
+  color: #172b4d;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -64,9 +62,8 @@
 }
 
 .supporting-text {
-  color: #7F8CFF;
+  color: #7f8cff;
   font-size: 16px;
-  font-family: 'Poppins';
   font-weight: 500;
   margin-bottom: 12px;
 }
