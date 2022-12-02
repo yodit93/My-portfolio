@@ -37,8 +37,6 @@
 .headline {
   display: flex;
   flex-direction: column;
-  margin-left: 24px;
-  margin-right: 24px;
   background-image: url('header-shapes\ mobile.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -51,6 +49,8 @@
   line-height: 52px;
   margin-top: 114px;
   margin-bottom: 0;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .about {
@@ -60,6 +60,8 @@
   line-height: 24px;
   margin-top: 12px;
   margin-bottom: 12px;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .supporting-text {
@@ -67,6 +69,8 @@
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 12px;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .social-media-links {
@@ -74,6 +78,7 @@
   width: 170.17px;
   justify-content: space-between;
   list-style-type: none;
-  margin: 0;
+  margin-left: 24px;
+  margin-right: 24px;
   padding: 0;
 }
