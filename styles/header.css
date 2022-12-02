@@ -39,7 +39,7 @@
   flex-direction: column;
   margin-left: 24px;
   margin-right: 24px;
-  background-image: url('/Module-1/My-portfolio/images/header-shapes\ mobile.png');
+  background-image: url('header-shapes\ mobile.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
