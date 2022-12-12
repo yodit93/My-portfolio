@@ -14,12 +14,14 @@
   border-radius: 16px;
 }
 
-.margin-set {
+.margin-set,
+.project-picture-container {
   margin: 0 0 12px 0;
 }
 
 .project-picture {
   width: 100%;
+  border-radius: 8px;
 }
 
 .project-title {
@@ -28,6 +30,7 @@
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
+  margin: 0 0 12px 0;
 }
 
 .project-stats {
@@ -41,6 +44,7 @@
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
+  padding: 8px 0;
 }
 
 .project-place {

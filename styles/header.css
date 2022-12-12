@@ -1,8 +1,13 @@
 .header {
+  background-color: white;
   display: flex;
   height: 48px;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .left-section {
@@ -33,12 +38,19 @@
   height: 24px;
 }
 
+.menu-lists {
+  display: none;
+}
+
 .headline {
+  background-color: white;
   display: flex;
   flex-direction: column;
   background-image: url('header-shapes\ mobile.png');
   background-repeat: no-repeat;
   background-size: cover;
+  border-bottom-left-radius: 70px;
+  height: 604px;
 }
 
 .introduction {
@@ -78,6 +90,5 @@
   justify-content: space-between;
   list-style-type: none;
   margin-left: 24px;
-  margin-right: 24px;
   padding: 0;
 }
