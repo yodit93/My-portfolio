@@ -5,14 +5,14 @@
 }
 
 .footer-sec {
-  background: #6070FF;
+  background: #6070ff;
   height: 779px;
   background-image: url(../images/contact\ form\ shapes-mobile.svg);
   background-repeat: no-repeat;
   background-position: right 21px;
   border-top-left-radius: 80px;
-  margin: -8px 0px;
-  padding: 103px 24px 0px;
+  margin: -8px 0;
+  padding: 103px 24px 0;
 }
 
 .contact-form {
@@ -22,20 +22,21 @@
 }
 
 .contact-me-heading {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 40px;
+
   /* text-align: center; */
   color: white;
   margin-bottom: 12px;
 }
 
 .colab-interest {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  color: #EBEBFF;
+  color: #ebebff;
   text-align: center;
   margin-bottom: 39px;
 }
@@ -47,15 +48,16 @@
   border: none;
 }
 
-#name, #email {
+#name,
+#email {
   height: 50px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
-  color: #172B4D;
-  background: #FFFFFF;
-  border: 1px solid #CFD8DC;
+  color: #172b4d;
+  background: #fff;
+  border: 1px solid #cfd8dc;
   border-radius: 8px;
   margin-bottom: 20px;
   padding: 15px 38px 16px 16px;
@@ -63,8 +65,8 @@
 
 #name::placeholder,
 #email::placeholder {
-  color: #172B4D;
-  font-family: 'Poppins';
+  color: #172b4d;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
@@ -73,19 +75,19 @@
 #textarea {
   height: 172px;
   background: white;
-  border: 1px solid #CFD8DC;
+  border: 1px solid #cfd8dc;
   border-radius: 8px;
   margin-bottom: 22px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  color: #B3BAC5;
+  color: #b3bac5;
   padding: 15px 38px 15px 16px;
 }
 
 #textarea::placeholder {
-  color: #B3BAC5;
+  color: #b3bac5;
 }
 
 #submit-button {
@@ -94,34 +96,34 @@
   height: 48px;
   background: white;
   border-radius: 8px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 17px;
-  color: #6070FF;
+  color: #6070ff;
   border: none;
   margin-bottom: 11px;
-  align-self: flex-start; 
+  align-self: flex-start;
 }
 
 #submit-button:enabled {
-  color: #6070FF;
-  border: 1px solid #7F8CFF;
+  color: #6070ff;
+  border: 1px solid #7f8cff;
 }
 
 #submit-button:disabled {
-  color: #5E6C84;
-  border: 1px solid #C1C7D0;
+  color: #5e6c84;
+  border: 1px solid #c1c7d0;
 }
 
 #submit-button:hover {
   color: white;
-  background: #6070FF;
-  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+  background: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
 #submit-button:active {
   color: white;
-  background: #2230D2;
+  background: #2230d2;
 }
 
 .end {
@@ -133,4 +135,3 @@
   margin-top: 21px;
   margin-bottom: 8px;
 }
-

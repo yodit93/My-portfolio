@@ -4,7 +4,7 @@
   }
 
   .left-section {
-    margin: 16px 0px 16px 143px;
+    margin: 16px 0 16px 143px;
   }
 
   .icon-menu {
@@ -14,14 +14,14 @@
   .menu-lists {
     display: flex;
     list-style-type: none;
-    margin: 16px 142px 16px 0px;
+    margin: 16px 142px 16px 0;
     align-items: center;
   }
 
   .port-nav,
   .abt-nav,
   .cont-nav {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 15px;
     text-align: center;
@@ -45,7 +45,7 @@
     background-position: 32.6px 46px;
     align-items: center;
     justify-content: center;
-    height: 100vh; 
+    height: 100vh;
   }
 
   .wrapp-align {
@@ -62,7 +62,7 @@
     width: 45%;
   }
 
-  .about { 
+  .about {
     font-size: 20px;
     line-height: 28px;
   }
@@ -97,7 +97,7 @@
 
   .project-intro-right {
     flex: 1;
-    margin: 24px 22px 27px 0px;
+    margin: 24px 22px 27px 0;
     padding: 24px;
   }
 
@@ -116,7 +116,7 @@
   }
 
   .margin-set {
-    margin: 0px 0px 24px 0px;
+    margin: 0 0 24px 0;
   }
 
   .see-project-link {
@@ -128,10 +128,12 @@
 
   .about-me {
     display: flex;
+
     /* align-items: center; */
     justify-content: center;
     gap: 25px;
-    padding: 142px 0px;
+    padding: 142px 0;
+
     /* height: 668px; */
   }
 
@@ -158,7 +160,7 @@
 
   .lang-container-lists {
     display: flex;
-    margin: 12px 0px;
+    margin: 12px 0;
   }
 
   .flex {
@@ -170,7 +172,7 @@
   }
 
   .flex-img {
-    margin: 12px 0px 16px 12px;
+    margin: 12px 0 16px 12px;
   }
 
   .flex p {
@@ -181,6 +183,4 @@
   .with-border {
     padding-bottom: 24px;
   }
-} 
-
-
+}
