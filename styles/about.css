@@ -41,7 +41,7 @@
 
 .social-media-links {
   display: flex;
-  width: 170.17px;
+  width: 200px;
   justify-content: space-between;
   list-style-type: none;
   padding: 0;
@@ -69,6 +69,14 @@
   text-align: center;
   color: #396df2;
   text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
+.additional-info {
+  list-style-type: none;
 }
 
 .div-flex {
