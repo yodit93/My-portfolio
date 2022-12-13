@@ -1,2 +1,4 @@
 # .gitignore
 node_modules/
+disktop.html
+footer.html
