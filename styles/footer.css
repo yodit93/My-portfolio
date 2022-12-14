@@ -1,10 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.footer-sec {
+.contact-sec {
   background: #6070ff;
   height: 779px;
   background-image: url(../images/contact\ form\ shapes-mobile.svg);
@@ -25,8 +19,6 @@
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 40px;
-
-  /* text-align: center; */
   color: white;
   margin-bottom: 12px;
 }
