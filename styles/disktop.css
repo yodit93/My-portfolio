@@ -122,6 +122,7 @@
   .see-project-link {
     margin-top: 16px;
     margin-bottom: 89px;
+    transition: all 1s ease 0.15s;
   }
 
   /* About section */
