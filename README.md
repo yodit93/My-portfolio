@@ -50,7 +50,7 @@
 
 > Link to deployed project.
 
-- [Live Demo Link]()
+- [Live Demo Link](https://yodit93.github.io/My-portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
