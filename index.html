@@ -18,11 +18,14 @@
     <div class="left-section"><a class="logo" href="#">My Logo</a></div>
     <nav class="right-section">
       <a class="icon-menu" href="#"><img src="images/Icon - Menu.png" alt=""></a>
-      <ul class="menu-lists">
-        <li><a class="port-nav" href="#">Portfolio</a></li>
-        <li><a class="abt-nav" href="#">About</a></li>
-        <li><a class="cont-nav" href="#">Contact</a></li>
-      </ul>
+      <div class="click-event">
+        <div class="close-btn">&#10005;</div>
+        <ul class="menu-lists">
+          <li><a class="port-nav" href="#portfolio">Portfolio</a></li>
+          <li><a class="abt-nav" href="#about">About</a></li>
+          <li><a class="cont-nav" href="#contact">Contact</a></li>
+        </ul>
+      </div>
     </nav>
   </header>
   <main>
@@ -45,7 +48,7 @@
         </ul>
       </div>
     </section>
-    <div class="project-intro-grid">
+    <div class="project-intro-grid" id="portfolio">
       <section class="project-intro">
         <figure class="project-picture-container">
           <img class="project-picture" src="images/project-img/project1.svg" alt="">
@@ -66,6 +69,8 @@
             <li><a class="html lang" href="">html</a></li>
             <li><a class="css lang" href="">css</a></li>
             <li><a class="js lang" href="">javascript</a></li>
+
+      
           </ul>
           <div class="see-project">
             <a class="see-project-link" href="">See Project</a>
@@ -153,7 +158,7 @@
         </div>
       </section>
     </div>
-    <section class="relative-pos">
+    <section class="relative-pos" id="about">
       <section class="about-me">
         <section class="self-intro">
           <h1 class="title set-margin">About Myself</h1>
@@ -201,7 +206,7 @@
           </li>
         </ul>
       </section>
-      <section class="contact-sec">
+      <section class="contact-sec" id="contact">
         <div class="div-form">
           <form class="contact-form" action="https://formspree.io/f/xeqdyldr" method="POST">
             <h1 class="contact-me-heading">Contact me</h1>
@@ -222,5 +227,6 @@
       </section>
     </section>
   </main>
+  <script src="./JS/script.js"></script>
 </body>
 </html>

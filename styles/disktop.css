@@ -11,6 +11,14 @@
     display: none;
   }
 
+  .click-event {
+    display: block;
+  }
+
+  .close-btn {
+    display: none;
+  }
+
   .menu-lists {
     display: flex;
     list-style-type: none;

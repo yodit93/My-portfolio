@@ -1,5 +1,5 @@
 .header {
-  background-color: white;
+  background: transparent;
   display: flex;
   height: 48px;
   align-items: center;
@@ -38,8 +38,51 @@
   height: 24px;
 }
 
-.menu-lists {
+.click-event {
   display: none;
+}
+
+.click-event.active {
+  position: absolute;
+  height: 100vh;
+  display: block;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(39, 39, 231, 0.85);
+  backdrop-filter: blur(6px);
+}
+
+.menu-lists {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 90px;
+  margin-left: 28px;
+  list-style-type: none;
+}
+
+.port-nav,
+.abt-nav,
+.cont-nav {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 10px 12px;
+}
+
+.close-btn {
+  position: absolute;
+  font-size: 1.2rem;
+  color: white;
+  left: 87%;
+  right: 5%;
+  top: 5%;
 }
 
 .headline {
@@ -91,4 +134,10 @@
   list-style-type: none;
   margin-left: 24px;
   padding: 0;
+}
+
+.click-event.display-menu {
+  display: block;
+  position: relative;
+  background: #f7f7f9;
 }
