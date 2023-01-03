@@ -7,14 +7,11 @@
     margin: 16px 0 16px 143px;
   }
 
-  .left-section {
-    animation: rotation 2s alternate;
-  }
-
   @keyframes rotation {
     from {
-       transform: rotate(0deg);
+      transform: rotate(0deg);
     }
+
     to {
       transform: rotate(360deg);
     }
@@ -76,14 +73,14 @@
     animation: 3s infinite reverse translation linear;
   }
 
-  @keyframes translation{
+  @keyframes translation {
     from {
-      /* transform: translate(0%); */
-      magin-left: 0;
+      transform: translate(0%);
+      margin-left: 0;
     }
 
     to {
-      /* transform: translate(50%); */
+      transform: translate(50%);
       margin-left: 100%;
     }
   }
