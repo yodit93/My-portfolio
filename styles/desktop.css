@@ -6,7 +6,17 @@
   .left-section {
     margin: 16px 0 16px 143px;
   }
+  
+  .icon-menu {
+    display: none;
+  }
 
+  .click-event {
+    display: inline-block;
+  }
+
+  .close-btn {
+  
   @keyframes rotation {
     from {
       transform: rotate(0deg);
@@ -23,6 +33,7 @@
 
   .menu-lists {
     display: flex;
+    flex-direction: row;
     list-style-type: none;
     margin: 16px 142px 16px 0;
     align-items: center;
@@ -85,7 +96,7 @@
     }
   }
 
-  .about {
+  .abt {
     font-size: 20px;
     line-height: 28px;
   }
