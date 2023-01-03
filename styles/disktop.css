@@ -19,14 +19,9 @@
     display: none;
   }
 
-  #menu-desk {
-    display: flex;
-    flex-direction: row;
-  }
-
   .menu-lists {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     list-style-type: none;
     margin: 16px 142px 16px 0;
     align-items: center;
