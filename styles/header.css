@@ -42,7 +42,7 @@
   display: none;
 }
 
-.click-event.active {
+.click-event.show {
   position: absolute;
   height: 100vh;
   display: block;
