@@ -12,15 +12,21 @@
   }
 
   .click-event {
-    display: block;
+    display: inline-block;
   }
 
   .close-btn {
     display: none;
   }
 
+  #menu-desk {
+    display: flex;
+    flex-direction: row;
+  }
+
   .menu-lists {
     display: flex;
+    flex-direction: column;
     list-style-type: none;
     margin: 16px 142px 16px 0;
     align-items: center;
