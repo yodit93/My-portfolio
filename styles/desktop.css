@@ -7,22 +7,21 @@
     margin: 16px 0 16px 143px;
   }
 
-  @keyframes rotation {
-    from {
-      transform: rotate(0deg);
-    }
-
-    to {
-      transform: rotate(360deg);
-    }
+  .icon-menu {
+    display: none;
   }
 
-  .icon-menu {
+  .click-event {
+    display: inline-block;
+  }
+
+  .close-btn {
     display: none;
   }
 
   .menu-lists {
     display: flex;
+    flex-direction: row;
     list-style-type: none;
     margin: 16px 142px 16px 0;
     align-items: center;
@@ -70,22 +69,9 @@
     font-size: 48px;
     line-height: 60px;
     width: 45%;
-    animation: 3s infinite reverse translation linear;
   }
 
-  @keyframes translation {
-    from {
-      transform: translate(0%);
-      margin-left: 0;
-    }
-
-    to {
-      transform: translate(50%);
-      margin-left: 100%;
-    }
-  }
-
-  .about {
+  .abt {
     font-size: 20px;
     line-height: 28px;
   }
@@ -116,11 +102,6 @@
   .project-picture {
     height: 100%;
     object-fit: cover;
-    transition: transform 1s ease-in 0.15s;
-  }
-
-  .project-picture:hover {
-    transform: scale(1.2);
   }
 
   .project-intro-right {
@@ -150,7 +131,6 @@
   .see-project-link {
     margin-top: 16px;
     margin-bottom: 89px;
-    transition: all 1s ease 0.15s;
   }
 
   /* About section */
@@ -241,11 +221,6 @@
 
   .colab-interest {
     max-width: 569px;
-    transition: 1s ease-out 0.15s;
-  }
-
-  .colab-interest:hover {
-    transform: translate(30%);
   }
 
   .form-fieldset {
