@@ -1,22 +1,22 @@
 {
-  "name": "linters",
+  "name": "my-portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "<!-- TABLE OF CONTENTS -->",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yodit93/Linters.git"
+    "url": "git+https://github.com/yodit93/My-portfolio.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yodit93/Linters/issues"
+    "url": "https://github.com/yodit93/My-portfolio/issues"
   },
-  "homepage": "https://github.com/yodit93/Linters#readme",
+  "homepage": "https://github.com/yodit93/My-portfolio#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
