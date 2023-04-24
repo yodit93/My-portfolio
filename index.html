@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
   <link rel="stylesheet" href="styles/style.css">
-  <link rel="stylesheet" href="styles/desktop.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -24,7 +23,7 @@
       </div>
     </nav>
   </header>
-  <main>
+  <main class="main">
     <section class="headline">
       <div class="wrapp-align">
         <h1 class="introduction">I’m Mariane
@@ -45,112 +44,7 @@
       </div>
     </section>
     <div class="project-intro-grid" id="portfolio">
-      <section class="project-intro">
-        <figure class="project-picture-container">
-          <img class="project-picture" src="images/project-img/project1.svg" alt="">
-        </figure>
-        <div class="project-intro-right">
-          <h1 class="project-title">Tonic</h1>
-          <div class="project-stats margin-set">
-            <p class="project-place">CANOPY</p>
-            <img src="images/project-img/Counter.svg" alt="">
-            <p class="project-type">Back End Dev</p>
-            <img src="images/project-img/Counter.svg" alt="">
-            <p class="project-year">2015</p>
-          </div>
-          <p class="project-description margin-set">A daily selection of privately personalized reads; 
-              no accounts or sign-ups required.
-          </p>
-          <ul class="prog-lang-buttons margin-set">
-            <li><a class="html lang" href="">html</a></li>
-            <li><a class="css lang" href="">css</a></li>
-            <li><a class="js lang" href="">javascript</a></li>
-          </ul>
-          <div class="see-project">
-            <a class="see-project-link" href="">See Project</a>
-          </div>
-        </div>
-      </section>
-      <section class="project-intro">
-        <figure class="project-picture-container order">
-          <img class="project-picture" src="images/project-img/project2.svg" alt="">
-        </figure>
-        <div class="project-intro-right">
-          <h1 class="project-title">Multi-Post
-            Stories</h1>
-          <div class="project-stats margin-set">
-            <p class="project-place">CANOPY</p>
-            <img src="images/project-img/Counter.svg" alt="">
-            <p class="project-type">Back End Dev</p>
-            <img src="images/project-img/Counter.svg" alt="">
-            <p class="project-year">2015</p>
-          </div>
-          <p class="project-description margin-set">A daily selection of privately personalized reads; 
-              no accounts or sign-ups required.
-          </p>
-          <ul class="prog-lang-buttons margin-set">
-            <li><a class="html lang" href="">html</a></li>
-            <li><a class="css lang" href="">css</a></li>
-            <li><a class="js lang" href="">javascript</a></li>
-          </ul>
-          <div class="see-project">
-            <a class="see-project-link" href="">See Project</a>
-          </div>
-        </div>
-      </section>
-      <section class="project-intro">
-        <figure class="project-picture-container">
-          <img class="project-picture" src="images/project-img/project3.svg" alt="">
-        </figure>
-        <div class="project-intro-right">
-          <h1 class="project-title">Tonic</h1>
-          <div class="project-stats margin-set">
-            <p class="project-place">CANOPY</p>
-            <img src="images/project-img/Counter.svg" alt="">
-            <p class="project-type">Back End Dev</p>
-            <img src="images/project-img/Counter.svg" alt="">
-            <p class="project-year">2015</p>
-          </div>
-          <p class="project-description margin-set">A daily selection of privately personalized reads; 
-              no accounts or sign-ups required.
-          </p>
-          <ul class="prog-lang-buttons margin-set">
-            <li><a class="html lang" href="">html</a></li>
-            <li><a class="css lang" href="">css</a></li>
-            <li><a class="js lang" href="">javascript</a></li>
-          </ul>
-          <div class="see-project">
-            <a class="see-project-link" href="">See Project</a>
-          </div>
-        </div>
-      </section>
-      <section class="project-intro">
-        <figure class="project-picture-container order">
-          <img class="project-picture" src="images/project-img/project4.svg" alt="">
-        </figure>
-        <div class="project-intro-right">
-          <h1 class="project-title">Multi-Post
-            Stories</h1>
-          <div class="project-stats margin-set">
-            <p class="project-place">CANOPY</p>
-            <img src="images/project-img/Counter.svg" alt="">
-            <p class="project-type">Back End Dev</p>
-            <img src="images/project-img/Counter.svg" alt="">
-            <p class="project-year">2015</p>
-          </div>
-          <p class="project-description margin-set">A daily selection of privately personalized reads; 
-              no accounts or sign-ups required.
-          </p>
-          <ul class="prog-lang-buttons margin-set">
-            <li><a class="html-link lang" href="">html</a></li>
-            <li><a class="css-link lang" href="">css</a></li>
-            <li><a class="js-link lang" href="">javascript</a></li>
-          </ul>
-          <div class="see-project">
-            <a class="see-project-link" href="">See Project</a>
-          </div>
-        </div>
-      </section>
+      
     </div>
     <section class="relative-pos" id="about">
       <section class="about-me">
@@ -221,6 +115,9 @@
       </section>
     </section>
   </main>
+  <div class="popup-cont">
+    <button type="button" class="dclose-btn">&times;</button>
+  </div>
 
   <script src="./JS/script.js"></script>
 </body>
