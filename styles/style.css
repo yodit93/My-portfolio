@@ -558,7 +558,9 @@ ul {
   margin-bottom: 8px;
 }
 
-.popup-cont {
+
+/* popup window */
+.popup-wind {
   display: none;
 }
 
@@ -619,3 +621,4 @@ ul {
   font-weight: 500;
   z-index: 99;
 }
+
