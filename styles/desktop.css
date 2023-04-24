@@ -44,11 +44,8 @@
     margin-right: 8px;
   }
 
-  body {
-    padding-top: 72px;
-  }
-
   .headline {
+    padding-top: 72px;
     background-image: url(../images/Header\ bg.svg);
     background-size: contain;
     background-position: 32.6px 46px;
@@ -242,7 +239,6 @@
   }
 
   .d-sec {
-    padding: 260px 100px 0 100px;
     margin: auto;
   }
 
